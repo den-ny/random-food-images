@@ -1,2 +1,3 @@
-# README.md
-Random Food Dish Images using Foodish API<br/>Click a tab to show food images from that tab category.
+# Random Food Dish Images
+Uses Foodish API: https://github.com/surhud004/Foodish
+<br/>Click a tab to show food images from that tab category.
