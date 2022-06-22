@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container-top {
+  border: 1px solid navy;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: grey;
+  padding: 1%;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+.container-bottom {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.container-bottom div {
+  grid-column: 3/span 5;
+}
+
+.content {
+  display: none;
+}
+
+img {
+  width: 50%;
+  height: 80%;
+}
